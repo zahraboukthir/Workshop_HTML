@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+ul,
+li {
+  display: inline-block;
+}
+ul {
+  margin-right: 40px;
+}
+.iteam {
+  border-style: solid;
+  width: 100px;
+  text-align: center;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+#paragraphe {
+  text-indent: 30px;
+  text-transform: capitalize;
+  line-height: 100px;
+  font-family: Roboto;
+}
+.section1 p {
+  border-style: double;
+  width: 50%;
+  margin: auto;
+}
+#password:hover {
+  color: chartreuse;
+  text-decoration: line-through;
+}
+#s2 {
+  display: none;
+}
+li:hover #s2 {
+  display: block;
+}
+body {
+  background-image: url("https://hd-report.com/wp-content/uploads/2013/04/Xbox-logo-black-sq-300px.jpg");
+  background-repeat: no-repeat;
+ background-size: cover; 
+  background-position: 20% 02%;
+}

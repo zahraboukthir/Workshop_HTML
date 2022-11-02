@@ -9,35 +9,47 @@
       rel="icon"
       href="https://10000codeurs.com/storage/2022/04/partenaire-GoMyCode.png"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <img width="40px" src="../../resource/image/gomycode.jpg" alt="0" />
       <nav>
         <ul>
-          <li>home</li>
-          <li>about</li>
-          <li>resume</li>
-          <li>work</li>
-          <li><a href="#contact">contact</a></li>
+          <li class="iteam">home</li>
+          <li class="iteam">about</li>
+          <li class="iteam">resume</li>
+          <li class="iteam">work</li>
+          <li class="iteam"><a href="#contact">contact</a>
+          <ul id="s2">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+          </ul>
+          </li>
         </ul>
-        <input placeholder="Type here" type="text" /> <br />
-        <br />
+        <input placeholder="Type here" type="text" />
+
         <button>submit</button>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="section1">
         <h1>Home</h1>
-        <p>
+        <p id="paragraphe">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque est
           iure incidunt veritatis culpa quasi, deleniti quod non saepe sit,
           aliquam laboriosam fugit amet numquam? Provident ad perferendis
           voluptas voluptatem?
         </p>
-        <pre>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam laborum, quos omnis nam nemo magni rerum eos perferendis cumque facilis, iste alias neque commodi, nisi debitis deleniti ratione in. Nam.
-        </pre>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            laborum, quos omnis nam nemo magni rerum eos perferendis cumque
+            facilis, iste alias neque commodi, nisi debitis deleniti ratione in.
+            Nam.
+          </p>
+        </div>
       </section>
       <section>
         <h2>about</h2>
@@ -84,7 +96,7 @@
           <input type="email" />
           <label> phone number : </label>
           <input type="number" />
-          <label> password : </label>
+          <label id="password"> password : </label>
           <input type="password" />
           <label> date : </label>
           <input type="date" />
